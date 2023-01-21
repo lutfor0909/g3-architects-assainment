@@ -178,3 +178,18 @@ a{
     font-family: 'Work Sans', sans-serif;
 }
  
+/* media query */
+@media only screen and (max-width:576) {
+     
+    .nav{
+        flex-direction: column;
+        text-align: center;
+    }
+    .heading{
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+ 
